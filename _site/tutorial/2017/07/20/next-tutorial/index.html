@@ -168,6 +168,15 @@
 
 
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-110572102-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 
 
 
@@ -420,6 +429,17 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/tutorial/2017/07/20/next-tutorial/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/tutorial/2017/07/20/next-tutorial/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -691,6 +711,13 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -737,7 +764,7 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
                alt="Junchuan Fan" />
           <p class="site-author-name" itemprop="name">Junchuan Fan</p>
            
-              <p class="site-description motion-element" itemprop="description">GIScience, Place, Computational Social Science</p>
+              <p class="site-description motion-element" itemprop="description">People Place Computing</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -745,7 +772,7 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -756,7 +783,7 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -972,6 +999,59 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
 
   
 
+    
+      <script id="dsq-count-scr" src="https://junchuan.disqus.com/count.js" async></script>
+    
+
+    
+      
+      <script type="text/javascript">
+          (function () {
+              // ECMSScript 5 Strict Mode
+              'use strict';
+
+              // Global object
+              var App = {};
+
+              // Create button
+              App.commentsButton = document.createElement('button');
+              App.commentsButton.setAttribute('class', 'comments-button');
+              App.commentsButton.setAttribute('data-js', 'comments-button');
+              App.commentsButton.innerHTML = 'Show Comments';
+
+              // Append button to body
+              parent.document.getElementById("post-nav-id").firstElementChild.appendChild(App.commentsButton);
+
+              // Click event handler
+              App.commentsButton.onclick = function () {
+
+                  // Remove button on click
+                  this.parentNode.removeChild(this);
+
+                  // Create comments container
+                  App.disqusContainer = document.createElement('div');
+                  App.disqusContainer.setAttribute('id', 'disqus_thread');
+
+                  // Append container to body
+                  document.body.appendChild( App.disqusContainer );
+
+                  var disqus_config = function () {
+                      this.page.url = 'http://localhost:4000/tutorial/2017/07/20/next-tutorial/';
+                      this.page.identifier = '/tutorial/2017/07/20/next-tutorial/';
+                      this.page.title = 'Next Theme Tutorial';
+                  };
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://junchuan.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', '' + +new Date());
+                  (d.head || d.body).appendChild(s);
+              };
+          })();
+      </script>
+      
+    
+
+  
+
 
 
 
@@ -991,10 +1071,6 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
 
 
 
-
-  
-
-    
 
   
 
@@ -1031,6 +1107,28 @@ Next use <code class="highlighter-rouge">normal</code> by default. Have a previe
 
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
