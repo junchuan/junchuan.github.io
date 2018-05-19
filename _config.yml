@@ -6,7 +6,7 @@
 # Site
 title: SMART
 subtitle: think.space.
-description: People Place Computing
+description: Place | Computing | People
 author: Junchuan Fan
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -83,7 +83,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "GIScience, Place, Computational Social Science"
+keywords: "GIScience, Place,Human Movement, Computational Social Science"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -91,7 +91,7 @@ keywords: "GIScience, Place, Computational Social Science"
 rss: false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
