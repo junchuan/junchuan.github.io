@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: SMART
+title: Space & Computing & People 
 subtitle: think.space.
-description: People Place Computing
+description: Place | Computing | People
 author: Junchuan Fan
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://junchuan.github.io
-baseurl:
+url: https://terpconnect.umd.edu
+baseurl: 
 permalink: pretty
 
 # Pagination
@@ -83,7 +83,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "GIScience, Place, Computational Social Science"
+keywords: "GIScience,Smart Place,Human Activity , Mobility, Computational Social Science"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -91,7 +91,7 @@ keywords: "GIScience, Place, Computational Social Science"
 rss: false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 # icon between year and author @Footer
 authoricon: heart
@@ -122,15 +122,15 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   
-  #categories: /categories/
-  about: /about/
-  home: /
   
-  #tags: /tags/
+  #about: /about/
+  home: /
+  research: /research/
+  categories: /categories/
+  tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
-  research: /research/
-  notes: /notes/
+  #notes: /notes/
   archives: /archives/
   
 
@@ -145,7 +145,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  categories: th-list
   schedule: calendar
   tags: tags
   archives: archive
@@ -270,7 +270,7 @@ toc:
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
-  #position: right
+  # position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -309,7 +309,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true

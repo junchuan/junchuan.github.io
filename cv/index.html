@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Junchuan Fan's Space-Time C.V.</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' href='assets/css/common.css' type='text/css' />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- BootStrap library -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--link rel="exhibit/data" type="text/tsv" data-ex-value-separator="  " href="JCFan_CV.tsv"/ -->
+    <!-- Replace the URL here with http://api.simile-widgets.org/exhibit/current/exhibit-api.js -->
+<link rel="exhibit/data" data-ex-converter="google-spreadsheets" type="text/tsv"
+href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoWuPzcQKI4W_ED3NintP-AIk4R0HWTVWCz0fQQjPeU73F5Biq3DSBYQwerj41kwMWa5YbfSobIkGw/pub?gid=0&single=true&output=tsv"/>
+    <!-- Replace the URL here with http://api.simile-widgets.org/exhibit/current/extensions/time/time-extension.js -->
+<link rel="exhibit-extension" type="text/javascript" href="assets/exhibit_api/extensions/time/time-extension.js" />
+    
+
+<link rel="exhibit-extension" href="assets/exhibit_api/extensions/map/map-extension.js" service="openlayers" gmapkey="AIzaSyATkshrgVFX3d0RGYczriPMAY61kb7iV_8"/>
+    <!-- Replace the above apiKey with your own (this one will eventually stop working) -->
+    
+<link href="https://fonts.googleapis.com/css?family=Germania+One|Lobster" rel="stylesheet">
+
+<!--link rel='stylesheet' href='styles.css' type='text/css' /-->
+
+<script src="assets/exhibit_api/exhibit-api.js"></script>
+
+<style>
+/*Change h1 font*/
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+/*hide the orange sicissor*/
+div.exhibit-toolboxWidget-popup {
+ display: none;
+}
+
+div.exhibit-facet-body {
+    background-color: #E3E6EC;
+    border: 1px solid #B8B8BB;
+}
+
+div.exhibit-facet-header {
+    color: #523015;
+    background-color: white;
+}
+
+/*hide the color legend for timeline
+div.exhibit-color-legend {
+ display: none;
+} */
+
+span.bubble-item {
+  font-weight: bold
+}
+
+</style>
+  </head>
+
+<body>
+<div  class="container-fluid">
+  <h1>Junchuan Fan's C.V. in Spacetime</h1>
+ <div data-ex-role="coordinator" id="cv"></div>
+
+ <div data-ex-role="coder" data-ex-coder-class="Color" id="type-colors" style="display: none;">
+    <span data-ex-color="#fdc086">Education</span>
+    <span data-ex-color="#ffff99">Honor and awards</span>
+    
+    <span data-ex-color="#386cb0">Teaching</span>
+    <span data-ex-color="#beaed4">Research</span>
+    <span data-ex-color="#f0027f">Publication</span>
+    <span data-ex-color="#bf5b17">Presentation</span>
+    <span data-ex-color="#7fc97f">Services</span>
+</div>
+
+<div class="row">
+
+<div class="col-sm-9">
+
+<div data-ex-role="lens" style="display: none;"><span data-ex-content=".Location"></span> </div>
+<div data-ex-role="view"
+  data-ex-view-class="Timeline"
+  data-ex-bubble-width='500'
+   data-ex-autoposition="true"
+  data-ex-top-band-unit="year" 
+  data-ex-top-band-height="85" 
+  data-ex-top-band-pixels-per-unit="100"
+  data-ex-bottom-band-pixels-per-unit="500"
+  data-ex-show-summary='false'
+  data-ex-show-footer='false'
+  data-ex-timeline-height='350'
+  data-ex-start=".StartTime" 
+  data-ex-end=".EndTime" 
+  data-ex-color-key=".type"
+  data-ex-color-coder="type-colors" 
+  data-ex-select-coordinator="cv"
+   >
+     
+   </div>
+
+<!--div data-ex-role="view" data-ex-label="List" data-ex-orders=".StartTime" data-ex-possible-orders=".Location"></div-->
+
+    <!--div data-ex-role="view" data-ex-view-class="Tabular" data-ex-columns=".label, .StartTime,.Location" data-ex-column-labels='What, When, Where' ></div-->
+
+    <!--div data-ex-role="lens"> <span data-ex-content=".type"></span>: <span data-ex-content=".label"></span> </div-->
+
+
+  </div>
+
+  <div class="col-sm-3">
+<div data-ex-role="facet" data-ex-facet-label='Search' data-ex-facet-class="TextSearch"></div>
+<div data-ex-role="facet" data-ex-facet-label='Filter'data-ex-expression=".type" data-ex-show-missing="false" data-ex-height="200px"></div>
+
+  </div>
+ </div>
+
+
+
+
+
+<div class="row">
+
+<!--div data-ex-role="view" data-ex-label="List" data-ex-orders=".username,.hour" data-ex-possible-orders=".action,.date,.emotion, .gender,.hour,.location,.role,.username"></div -->
+<div data-ex-role="lens" style="display: none;">
+<span class='bubble-item' data-ex-content='.label'></span>
+
+<div data-ex-if="exists(.Year)">
+<div>Year: <span class='bubble-item' data-ex-content=".Year"></span> </div>
+<div>Start Time: 
+<span class='bubble-item' data-ex-content=".StartTime"></span>
+</div>
+</div>
+<div data-ex-if-exists=".EndTime" >End Time: 
+<span class='bubble-item' data-ex-content=".EndTime"></span>
+</div>
+<div data-ex-if-exists=".Description" >Detail:</br> 
+<span class='bubble-item' data-ex-content=".Description"></span> <span data-ex-content=".PublicationVenue"></span>
+</div>
+</div>
+
+<div data-ex-role="view" 
+data-ex-view-class="Map" 
+data-ex-type="terrain"
+data-ex-shape-width="30"
+data-ex-shape-height="30"
+data-ex-map-height="500"
+data-ex-latlng=".LatLng" 
+data-ex-color-key=".type"
+data-ex-color-coder="type-colors"
+data-ex-zoom="3" 
+data-ex-center="38.983574,-6.943600" 
+data-ex-overview-control="true"
+data-ex-select-coordinator="cv"
+data-ex-show-summary='false'
+>
+  
+</div>
+ </div>
+
+
+<div class="row">
+    <div id="footer">
+      Copyright &copy; <a href="mailto:jcfan@umd.edu">Junchuan Fan</a> 
+    </div>
+</div>
+
+
+  </div>
+
+  </body>
+</html>
+
