@@ -83,7 +83,10 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
+
 keywords: "GIScience,Smart Place,Human Activity , Mobility, Computational Social Science"
+
+
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -91,7 +94,9 @@ keywords: "GIScience,Smart Place,Human Activity , Mobility, Computational Social
 rss: false
 
 # Specify the date when the site was setup
-since: 2015
+
+since: 2016
+
 
 # icon between year and author @Footer
 authoricon: heart
