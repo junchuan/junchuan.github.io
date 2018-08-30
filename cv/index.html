@@ -32,11 +32,14 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoWuPzcQKI4W_ED3NintP-AIk
 <script src="assets/exhibit_api/exhibit-api.js"></script>
 
 <style>
-/*Change h1 font*/
+/*Change h1 h3 font*/
 h1 {
   font-family: "Lobster", cursive;
 }
 
+h3 {
+  font-family: "Lobster", cursive;
+}
 /*hide the orange sicissor*/
 div.exhibit-toolboxWidget-popup {
  display: none;
@@ -115,7 +118,10 @@ span.bubble-item {
   </div>
 
   <div class="col-sm-3">
-<div data-ex-role="facet" data-ex-facet-label='Search' data-ex-facet-class="TextSearch"></div>
+    <h3><a href="https://terpconnect.umd.edu/~jcfan/"> Back to Home Page</a> </h3>
+<div data-ex-role="facet" data-ex-facet-label='Search' data-ex-facet-class="TextSearch">
+  
+</div>
 <div data-ex-role="facet" data-ex-facet-label='Filter'data-ex-expression=".type" data-ex-show-missing="false" data-ex-height="200px"></div>
 
   </div>
@@ -131,18 +137,24 @@ span.bubble-item {
 <div data-ex-role="lens" style="display: none;">
 <span class='bubble-item' data-ex-content='.label'></span>
 
+<div data-ex-if-exists=".Description" >
+
+<span class='bubble-item' data-ex-content=".Description"></span> <span data-ex-content=".PublicationVenue"></span>
+</div>
+
 <div data-ex-if="exists(.Year)">
-<div>Year: <span class='bubble-item' data-ex-content=".Year"></span> </div>
+<div>Time: <span class='bubble-item' data-ex-content=".Year"></span> </div>
 <div>Start Time: 
 <span class='bubble-item' data-ex-content=".StartTime"></span>
 </div>
 </div>
+
 <div data-ex-if-exists=".EndTime" >End Time: 
 <span class='bubble-item' data-ex-content=".EndTime"></span>
 </div>
-<div data-ex-if-exists=".Description" >Detail:</br> 
-<span class='bubble-item' data-ex-content=".Description"></span> <span data-ex-content=".PublicationVenue"></span>
-</div>
+
+
+
 </div>
 
 <div data-ex-role="view" 

@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://terpconnect.umd.edu
-baseurl: 
+baseurl: /~jcfan
 permalink: pretty
 
 # Pagination
@@ -71,7 +71,7 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
- - algoliasearch-jekyll
+# - algoliasearch-jekyll
 
 
 
@@ -127,17 +127,22 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   
-  
   #about: /about/
-  home: /
-  research: /research/
-  categories: /categories/
-  tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
-  notes: /notes/
-  archives: /archives/
+  # home: /
+  # research: /research/
+  # categories: /categories/
+  # tags: /tags/
+  # #sitemap: /sitemap.xml
+  # #commonweal: /404.html
+  # # notes: /notes/
+  # archives: /archives/
   
+  home: /
+  research: research
+  categories: categories
+  tags: tags
+  archives: archives
+  notes: notes
 
 
 # Enable/Disable menu icons.
@@ -204,6 +209,7 @@ font:
   posts:
     external: true
     family:
+    size: 20
 
 
   # Font settings for Logo
