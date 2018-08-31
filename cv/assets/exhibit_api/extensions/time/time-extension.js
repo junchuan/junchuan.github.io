@@ -43,8 +43,12 @@ Exhibit.onjQueryLoaded(function() {
         
         Exhibit.TimeExtension = {
             "params": {
-                "bundle": true,
-                "timelinePrefix": proto + "//api.simile-widgets.org",
+                "bundle": false,
+
+                // change to script path to local due the certificate expire
+                //"timelinePrefix": proto + "//api.simile-widgets.org",
+
+                "timelinePrefix": "assets/exhibit_api/api.simile-widgets.org",
                 "timelineVersion": "2.3.1"
             },
             "urlPrefix": null,

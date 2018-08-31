@@ -354,7 +354,16 @@ Exhibit.TimelineView.prototype._reconstructTimeline = function(newEvents) {
         }
         
         bandInfos = [
-            Timeline.createBandInfo({
+
+                 Timeline.createHotZoneBandInfo({
+         zones: [
+             {   start:    "Mar 01 2018 00:00:00 ",
+                 end:      "May 01 2018 00:00:00 ",
+                 magnify:  15,
+                 unit:     Exhibit.DateTime.MONTH
+             }
+
+         ],
                 width:          settings.topBandHeight + "%", 
                 intervalUnit:   topIntervalUnit, 
                 intervalPixels: settings.topBandPixelsPerUnit,
@@ -362,6 +371,16 @@ Exhibit.TimelineView.prototype._reconstructTimeline = function(newEvents) {
                 //date:           earliest,
                 theme:          theme
             }),
+
+
+            // Timeline.createBandInfo({
+            //     width:          settings.topBandHeight + "%", 
+            //     intervalUnit:   topIntervalUnit, 
+            //     intervalPixels: settings.topBandPixelsPerUnit,
+            //     eventSource:    this._eventSource,
+            //     //date:           earliest,
+            //     theme:          theme
+            // }),
             Timeline.createBandInfo({
                 width:          settings.bottomBandHeight + "%", 
                 intervalUnit:   bottomIntervalUnit, 

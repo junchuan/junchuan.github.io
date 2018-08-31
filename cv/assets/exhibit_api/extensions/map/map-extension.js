@@ -35,7 +35,9 @@ Exhibit.onjQueryLoaded(function() {
                 "bundle": true,
                 "gmapKey": null,
                 "service": "google",
-                "mapPrefix": proto + "//api.simile-widgets.org"
+                // change to script path to local due the certificate expire
+                //"mapPrefix": proto + "//api.simile-widgets.org"
+                 "mapPrefix": "assets/exhibit_api/api.simile-widgets.org"
             },
             "urlPrefix": null,
             "markerUrlPrefix" :"http://service.simile-widgets.org/painter/painter?",
