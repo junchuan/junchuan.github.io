@@ -71,7 +71,7 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
- - algoliasearch-jekyll
+ # - algoliasearch-jekyll
 
 
 
@@ -126,7 +126,6 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  
   
   #about: /about/
   home: /
