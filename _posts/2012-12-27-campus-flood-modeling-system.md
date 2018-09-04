@@ -13,7 +13,7 @@ tags:
 ## Brief Description
 Working with University of Iowa Facility Management Office, this project developed a web-based flood risk monitoring system for all campus facilities. The system makes spatiotemporal prediction about campus buildings' flood vulnerabilities based on real-time flood stage information published by [NWS](https://forecast.weather.gov/MapClick.php?CityName=Iowa+City&state=IA&site=DVN&textField1=41.6583&textField2=-91.5351&e=0).
 
-![hawkevac interface](/assets/images/hawkevac.png)  
+![hawkevac interface]({{ site.baseurl }}{% link assets/images/hawkevac.png %})  
 
 
 
@@ -23,7 +23,7 @@ Working with University of Iowa Facility Management Office, this project develop
 
 ## Team members
 
-PI: [Kathleen Stewart](stewartk@umd.edu)  
+PI: [Kathleen Stewart](mailto:stewartk@umd.edu)  
 Members: Shane Hubbard, Junchuan Fan
 
 

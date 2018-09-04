@@ -28,7 +28,7 @@ title: Blogging Like a Hacker
 `layout`:  layout files must be placed in the  `_layouts` directory.   
 `permalink`: if you need your processed blog post URLs to be something other than the site-wide style (default `/year/month/day/title.html`), then you can set this variable and it will be used as the final URL.  
 `published` : set to false if you don’t want a specific post to show up when the site is generated.  
-### custom variables**
+### custom variables
 Any variables in the front matter can be referenced in the page. 
 ## write a post
 With these essential elements, you can then use `Markdown` to write your posts, however, `HTML` is also supported. 
