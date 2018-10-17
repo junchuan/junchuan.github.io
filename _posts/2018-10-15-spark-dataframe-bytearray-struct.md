@@ -61,5 +61,5 @@ schema = StructType([
 temp_sdf=temp_sdf.withColumn('bbox',func.from_json('coords',schema)) 
 
 ```  
-Check out the [jupyter notebook] (http://nbviewer.jupyter.org/github/junchuan/ResearchProject/blob/gh-pages/jupyter_notebook/ParquetFileBinary_Note.ipynb)for this post.
+Check out the [jupyter notebook](http://nbviewer.jupyter.org/github/junchuan/ResearchProject/blob/gh-pages/jupyter_notebook/ParquetFileBinary_Note.ipynb)for this post.
 
