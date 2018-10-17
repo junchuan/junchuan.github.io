@@ -1,6 +1,6 @@
 ---
 title: Detecting Spatial Patterns of Natural Hazard from Wikipedia Corpus
-
+date: 2015-08-10 11:22:00
 categories:
 - Research
 
