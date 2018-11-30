@@ -3,7 +3,7 @@
 
   <span class="archive-page-counter">
     <!-- {% assign posts_length = site.posts.size %} -->
-    {% assign posts_length = site.categories.notes.size %}
+    {% assign posts_length = site.categories.Notes.size %}
     {% if posts_length > 210 %} {% assign cheers = 'excellent' %}
       {% elsif posts_length > 130 %} {% assign cheers = 'great' %}
       {% elsif posts_length > 80 %} {% assign cheers = 'good' %}
@@ -34,7 +34,7 @@
   {% assign paginate = site.archive.paginate | default: site.paginate  %}
   {% assign paginate_path = site.archive.paginate_path | default: site.paginate_path  %}
 
-{% for post in site.categories.notes %}
+{% for post in site.categories.Notes %}
     
     {% if paginate > 0 %}
       {% assign page_num = forloop.index0 | divided_by: paginate | plus: 1 %}
