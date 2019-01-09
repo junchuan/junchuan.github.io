@@ -34,6 +34,7 @@ tags:
 - [Capital Bikeshare Data](https://www.capitalbikeshare.com/system-data)
 - [GeoJSON files for real-time Virginia transportation data](https://gist.github.com/waldoj/5053946)
 - [SVG Map Icons](http://www.sjjb.co.uk/mapicons/)
+- [GeoDa Sample Dataset](https://geodacenter.github.io/data-and-lab/)
 
 ## Some other useful dataset
 
