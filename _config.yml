@@ -46,6 +46,7 @@ highlighter: rouge
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
 markdown: kramdown
+remote_theme: NexT
 kramdown:
     input: GFM
 
