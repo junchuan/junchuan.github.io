@@ -3,7 +3,6 @@ title: Dask Notes
 date: 2018-01-28 09:16:00
 categories:
 - Big Data
-- Notes
 - Data Science
 
 tags:

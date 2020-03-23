@@ -2,10 +2,11 @@
 title: Compile and build program using gcc
 date: 2014-08-05 09:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming
+- gcc
 
 ---
 

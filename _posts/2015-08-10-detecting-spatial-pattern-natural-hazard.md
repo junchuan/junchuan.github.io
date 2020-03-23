@@ -10,7 +10,7 @@ tags:
 - natural language processing 
 - natural hazard
 
-published: False
+published: false
 ---
 
 
