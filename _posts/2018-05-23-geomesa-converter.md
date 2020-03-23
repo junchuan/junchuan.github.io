@@ -2,12 +2,13 @@
 title: Geomesa Converter
 date: 2018-05-23 11:29:00
 categories:
-- Notes
+- Big Data
 
 tags:
 - big geospatial data
 - spatiotemporal database
 - hdfs
+- geomesa
 
 
 ---

@@ -2,7 +2,7 @@
 title: Decode bytearray column in Spark dataframe into StructType
 date: 2018-10-15 11:29:00
 categories:
-- Notes
+- Big Data
 
 tags:
 - tweet data

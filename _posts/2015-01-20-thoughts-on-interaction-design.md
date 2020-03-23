@@ -3,7 +3,11 @@ title: Book quotes - What's the mission of an interaction designer?
 date: 2015-01-20 11:16:00
 categories:
 - Quotes
+- Reading
 
+tags:
+- interaction design
+- John Kolko
 
 
 

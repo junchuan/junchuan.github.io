@@ -2,9 +2,10 @@
 title: Scientific writing
 date: 2019-03-18 13:29:08
 categories:
-- Notes
+- Writing
+
 tags:
-- writing
+- scientific writing
 
 ---
 

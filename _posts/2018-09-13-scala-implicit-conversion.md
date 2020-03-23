@@ -2,7 +2,7 @@
 title: Scala implicit conversion
 date: 2018-09-13 19:29:00
 categories:
-- Notes
+- Programming
 
 tags:
 - scala

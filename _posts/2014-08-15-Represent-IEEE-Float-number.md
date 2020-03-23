@@ -2,10 +2,12 @@
 title: IEEE floating-point representation
 date: 2014-08-15 09:16:00
 categories:
-- Notes
+- Data Science
+- Programming
 
 tags:
 - programming
+- float point number
 
 ---
 

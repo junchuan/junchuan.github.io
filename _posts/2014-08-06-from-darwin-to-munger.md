@@ -2,7 +2,11 @@
 title: 'Book quotes - Seeking Wisdom: From Darwin to Munger'
 date: 2014-08-06 11:16:00
 categories:
+- Reading
 - Quotes
+
+tags:
+- charlie munger
 
 
 

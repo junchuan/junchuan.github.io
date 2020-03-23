@@ -2,10 +2,12 @@
 title: Understand functional
 date: 2015-02-27 09:16:00
 categories:
-- Notes
+- Data Science
+- Machine Learning
 
 tags:
 - data science
+- functional
 
 ---
 

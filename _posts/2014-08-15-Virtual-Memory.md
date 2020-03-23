@@ -2,10 +2,12 @@
 title: Virtual Memory of computer
 date: 2014-08-15 12:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming
+- memory
+- virtual memory
 
 ---
 

@@ -2,11 +2,12 @@
 title: Tracking the spatiotemporal evolution of COVID-19 in the U.S. 
 date: 2020-03-20 11:29:00
 categories:
-- Notes
+- Visualization
 
 tags:
 - geo-visualization
 
+comments: true
 
 ---
 

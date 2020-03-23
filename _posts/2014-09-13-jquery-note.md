@@ -2,7 +2,7 @@
 title: Notes on JQuery
 date: 2014-09-13 09:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming

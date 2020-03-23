@@ -2,11 +2,13 @@
 title: Python Multiprocessing daemon
 date: 2015-04-01 11:29:00
 categories:
-- Notes
+- Programming
+- Data Science
 
 tags:
 - python
 - programming
+- multiprocessing
 
 
 ---

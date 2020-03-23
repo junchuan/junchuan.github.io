@@ -2,7 +2,7 @@
 title: Notes on Python 2.x Unicode
 date: 2016-05-31 11:16:00
 categories:
-- Notes
+- Programming
 tags:
 - programming
 - python

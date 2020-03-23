@@ -2,7 +2,7 @@
 title: GDAL crashes python
 date: 2015-10-13 09:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - python

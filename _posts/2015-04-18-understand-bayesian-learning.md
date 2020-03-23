@@ -2,10 +2,12 @@
 title: Understand Bayesian Learning
 date: 2015-04-18 09:16:00
 categories:
-- Notes
+- Data Science
+- Machine Learning
 
 tags:
 - data science
+- bayesian
 
 ---
 

@@ -2,7 +2,7 @@
 title: Expectation Maximization Algorithm Intuition
 date: 2016-03-04 09:16:00
 categories:
-- Notes
+- Data Science
 
 tags:
 - data science

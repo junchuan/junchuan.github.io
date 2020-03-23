@@ -3,6 +3,12 @@ title: 'Book quotes - The Pyramid Principle: Logic in Writing and Thinking'
 date: 2013-10-24 09:16:00
 categories:
 - Quotes
+- Reading
+
+tags:
+- writing
+- logic
+- presentation
 
 ---
 

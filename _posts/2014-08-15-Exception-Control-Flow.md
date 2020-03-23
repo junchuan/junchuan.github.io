@@ -2,7 +2,7 @@
 title: Exception Control Flow
 date: 2014-08-15 12:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming

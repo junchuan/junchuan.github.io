@@ -2,9 +2,10 @@
 title: Root of Lisp
 date: 2018-08-07 13:29:08
 categories:
-- Notes
+- Programming
 tags:
 - programming
+- lisp
 
 ---
 

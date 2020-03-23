@@ -2,7 +2,11 @@
 title: 'Book quotes - How to Solve It: A New Aspect of Mathematical Method'
 date: 2014-05-05 11:16:00
 categories:
+- Reading
 - Quotes
+
+tags:
+- problem solving
 
 ---
 

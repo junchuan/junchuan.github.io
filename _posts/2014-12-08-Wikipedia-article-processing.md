@@ -2,11 +2,12 @@
 title: Processing geotagged wikipedia articles 
 date: 2014-12-08 11:29:00
 categories:
-- Notes
+- Big Data
 
 tags:
-- wikipedia dump
+- wikipedia 
 - geospatial semantic
+- natural language processing
 
 
 ---

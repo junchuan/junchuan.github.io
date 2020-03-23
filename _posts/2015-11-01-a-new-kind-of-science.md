@@ -3,6 +3,11 @@ title: 'Book quotes - A New Kind of Science'
 date: 2015-11-01 09:16:00
 categories:
 - Quotes
+- Reading
+
+tags:
+- stephen wolfram
+- simulation
 
 ---
 

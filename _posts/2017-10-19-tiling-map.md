@@ -2,10 +2,12 @@
 title: Web map tiling
 date: 2017-10-19 09:16:00
 categories:
-- Notes
+- Visualization
 
 tags:
 - geo-visualization
+- map tile
+- web map
 
 ---
 

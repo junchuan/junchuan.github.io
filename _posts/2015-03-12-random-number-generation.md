@@ -2,11 +2,12 @@
 title: Generate random numbers from various probability distributions
 date: 2015-03-12 19:39:18
 categories:
-- Notes
+- Data Science
 
 tags:
 - algorithm
 - data science
+- random number
 
 ---
 

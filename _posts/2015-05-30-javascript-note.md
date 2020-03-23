@@ -2,7 +2,7 @@
 title: Notes on Javascript
 date: 2015-05-30 09:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming

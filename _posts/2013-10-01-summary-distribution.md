@@ -2,10 +2,12 @@
 title: Summary of probability distributions
 date: 2013-10-01 09:16:00
 categories:
-- Notes
+- Data Science
+- Machine Learning
 
 tags:
 - data science
+- probability distribution
 ---
 
 ### Bernoulli process

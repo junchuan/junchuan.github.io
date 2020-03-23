@@ -5,7 +5,7 @@ categories:
 - Notes
 
 tags:
-- Linux tool
+- linux
 
 
 ---

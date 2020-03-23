@@ -2,10 +2,12 @@
 title: Python memoryview and memory-map file
 date: 2017-09-22 19:19:18
 categories:
-- Notes
+- Data Science
 
 tags:
 - python
+- programming
+- data science
 
 ---
 

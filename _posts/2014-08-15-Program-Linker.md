@@ -2,10 +2,11 @@
 title: Linker
 date: 2014-08-15 11:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - programming
+- linker
 
 ---
 

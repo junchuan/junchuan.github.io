@@ -2,10 +2,14 @@
 title: Naive Bayes, Hidden Markov Model, Structured Prediction
 date: 2018-10-19 11:29:00
 categories:
-- Notes
+- Data Science
+- Machine Learning
 
 tags:
 - data science
+- hidden markov model
+- naive bayes
+- structured prediction
 
 
 

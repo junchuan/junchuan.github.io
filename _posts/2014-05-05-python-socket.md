@@ -2,10 +2,11 @@
 title: Python network programming
 date: 2014-05-05 09:16:00
 categories:
-- Notes
+- Programming
 
 tags:
 - python
+- network socket
 
 ---
 

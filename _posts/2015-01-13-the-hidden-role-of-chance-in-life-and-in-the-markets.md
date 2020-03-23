@@ -3,6 +3,10 @@ title: Book quotes - Fooled by Randomness
 date: 2015-01-13 09:16:00
 categories:
 - Quotes
+- Reading
+
+tags:
+- randomness
 
 
 

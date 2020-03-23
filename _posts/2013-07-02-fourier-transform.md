@@ -2,10 +2,11 @@
 title: Understand Fourier Transform
 date: 2013-07-02 09:16:00
 categories:
-- Notes
+- Data Science
 
 tags:
 - data science
+- fourier transform
 
 ---
 

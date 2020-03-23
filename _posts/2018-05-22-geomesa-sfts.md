@@ -2,12 +2,14 @@
 title: Geomesa SimpleFeatureType
 date: 2018-05-22 22:19:00
 categories:
-- Notes
+- Big Data
+- 
 
 tags:
 - big geospatial data
 - spatiotemporal database
 - hdfs
+- geomesa
 --- 
 
 ## Geomesa SimpleFeatureType

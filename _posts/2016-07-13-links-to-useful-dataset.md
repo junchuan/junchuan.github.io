@@ -2,10 +2,10 @@
 title: A curated list of dataset for geographical research
 date: 2016-07-13 09:18:00
 categories:
-- Notes
+- Data Science
 
 tags:
-- dataset
+- geospatial dataset
 
 
 

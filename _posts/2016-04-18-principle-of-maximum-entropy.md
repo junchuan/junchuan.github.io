@@ -2,7 +2,7 @@
 title: Maximum Entropy Principle
 date: 2016-04-18 09:16:00
 categories:
-- Notes
+- Data Science
 
 tags:
 - data science

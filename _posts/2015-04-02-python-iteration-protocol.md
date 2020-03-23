@@ -2,7 +2,7 @@
 title: Python Iteration Protocol
 date: 2015-04-02 11:29:00
 categories:
-- Notes
+- Programming
 
 tags:
 - python

@@ -2,10 +2,12 @@
 title: Some tips for speeding up python data processing 
 date: 2017-09-18 19:29:00
 categories:
-- Notes
+- Data Science
 
 tags:
 - python
+- programming
+- data science
 
 ---
 
