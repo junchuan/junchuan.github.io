@@ -3,6 +3,7 @@ title: Root of Lisp
 date: 2018-08-07 13:29:08
 categories:
 - Programming
+
 tags:
 - programming
 - lisp
