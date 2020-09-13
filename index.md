@@ -15,10 +15,10 @@ Also, you can view [my C.V. in space and time]({{ site.baseurl }}{% link cv/inde
 
 ## What I do ?
 
-Currently, I am a Research Scientist at Oak Ridge National Laboratory. 
+Currently, I am a Research Scientist at Oak Ridge National Laboratory.
 Previously, I was an assistant research professor at the Center for Geospatial Information Science in the University of Maryland, College Park.  
-I teach courses on *GIS programming, advanced spatial analytics, and web mapping*.  
-I also work on federally funded research projects that develop effective computing solutions to  integrate and analyze massive spatial-temporal-social data (e.g., GPS trajectory, cellphone records, social media data) for transportation-related applications.  
+I taught courses on *GIS programming, advanced spatial analytics, and web mapping*.  
+
 Most of data crunching I do are carried out using python, R and scala.  
 
 Sometimes, I also work as a volunteer data scientist for [DataKind](http://www.datakind.org/).  
