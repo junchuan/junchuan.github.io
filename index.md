@@ -5,21 +5,20 @@ layout: page
 
 
 
-## Who am I?
+## Who am I ?
 
-Hi, I am Junchuan Fan, a GIScience and computational social science researcher focusing on the study of human activities and mobility in space.  
-I am mostly interested in the study of *human activity and movement in space*, *characteristics of places infused by human activities therein*, and *the dynamic interactions between place and people* using big geospatial data computing approaches. 
+Hi, I am Junchuan Fan, a GIScience and computational social science researcher interested in human activity and movement, and human place interactions.  
+My current research mostly focus on using big spatiotemporal data analytics to **uncover human activity and mobility pattern in space, analyze semantic characteristics of places infused by human activities therein, and model the dynamic interactions between human and places**. 
 
 Check out my [C.V. here](https://docs.google.com/document/d/1PoyEGga4Y5A0dTorYs8L0Lygnu1tMwT4imiX2k-FUHA/edit?usp=sharing).  
-Or, you can view [C.V. in space time]({{ site.baseurl }}{% link cv/index.html %}).  
+Also, you can view [my C.V. in space and time]({{ site.baseurl }}{% link cv/index.html %}).  
 
-## What I do?
-Currently, I am working as a postdoc researcher in the University of Maryland. I rely heavily on big data computing tools to analyze massive spatial-temporal-social data (e.g., GPS trajectory, cellphone records, social media data), and extract knowledge that can inform decision-making in transportation planning, driving safety etc.  
-Most of data wrangling I do are carried out using python,java or scala.  
+## What I do ?
+
+Currently, I am a Research Scientist at Oak Ridge National Laboratory. 
+Previously, I was an assistant research professor at the Center for Geospatial Information Science in the University of Maryland, College Park.  
+I teach courses on *GIS programming, advanced spatial analytics, and web mapping*.  
+I also work on federally funded research projects that develop effective computing solutions to  integrate and analyze massive spatial-temporal-social data (e.g., GPS trajectory, cellphone records, social media data) for transportation-related applications.  
+Most of data crunching I do are carried out using python, R and scala.  
 
 Sometimes, I also work as a volunteer data scientist for [DataKind](http://www.datakind.org/).  
-
-
-
-
-
