@@ -16,7 +16,7 @@ This post discusses Apache Kafaka.
 
 ---
 
-## Elastic Search
+## 
 
 
 ## References
