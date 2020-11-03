@@ -2,13 +2,12 @@
 title: Elastic Search 
 date: 2020-10-18 22:14:08
 categories:
-  - Notes
+  - Data Science
 
 tags:
   - elasticsearch
 
-published:
-  - false
+published: false
 ---
 
 This post discusses ElasticSearch.

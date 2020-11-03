@@ -1,16 +1,15 @@
 ---
-title: Apache Kafaka 
+title: Apache Kafaka Notes
 date: 2020-10-20 11:14:08
 categories:
-  - Notes
+  - Data Science
 
 tags:
   - apache kafaka
   - distributed computing
   - data streaming
 
-published:
-  - false
+published: false
 ---
 
 This post discusses Apache Kafaka.

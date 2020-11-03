@@ -2,7 +2,7 @@
 title: Frequently Used Docker Image/Containter Commands
 date: 2020-08-24 21:29:08
 categories:
-  - Notes
+  - Data Science
 
 tags:
   - docker

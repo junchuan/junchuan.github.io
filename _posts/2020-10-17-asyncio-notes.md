@@ -2,7 +2,7 @@
 title: Python asyncio package
 date: 2020-10-17 21:29:08
 categories:
-  - Notes
+  - HPC
 
 tags:
   - async
