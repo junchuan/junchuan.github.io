@@ -15,6 +15,18 @@ This post takes notes about deep learning.
 
 ---
 
+## RNN
+
+Networks that are able to connect previous information to the present task. The gradients can either vanish or explode over many stages of propagation. 
+
+## LSTM
+
+LSTM was designed to overcome vanishing and exploding gradients problem in the RNN model. But there is still a sequential path for the data and is difficult to parallelize the computation. 
+
+## Transformer
+
+This model consists of two components, encoder and decoder. The encoder will take a variable-length input and convert it into a hidden state with a fixed length. Then the decoder will convert the fixed-length state into an output of variable length. 
+
 ## Layer
 
 The fundamental building block of a neural network is the layer. A layer is a data-processing module that takes as input one or more tensors and outputs one or more tensors. Layer's weights are where the knowledge of the network is stored.  
