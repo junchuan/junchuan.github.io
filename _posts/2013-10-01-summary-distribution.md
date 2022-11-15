@@ -40,7 +40,9 @@ As a function of k, this is the probability mass function. The parameter λ is n
 ### Gamma distribution
 Gamma distribution is a distribution that arises naturally in processes for which the waiting times between events are relevant. It can be thought of as a waiting time between Poisson distributed events.  
 The waiting time until the `hth` Poisson event with a rate of change `λ` is
+
 $$P(x)=\lambda(\lambda x)^{h-1}$$  
+
 The gamma distribution can be used a range of disciplines including queuing models, climatology, and financial services. Examples of events that may be modeled by gamma distribution include:
 - The amount of rainfall accumulated in a reservoir
 - The size of loan defaults or aggregate insurance claims
@@ -70,12 +72,14 @@ The exponential distribution occurs naturally when describing the waiting time i
 
 ### Pareto Distribution
 A skewed, heavy-tailed distribution that is sometimes used to model that distribution of incomes. The basis of the distribution is that a high proportion of a population has low income while only a few people have very high incomes.
-The Pareto probability density function is given by  
+The Pareto probability density function is given by
+
 $$\frac {ax^a_m}  {x^{a+1}}$$  
+
 where  
-- $x_m$ is the minimum possible value of X
+- \( x_m \) is the minimum possible value of X
 - α is a positive parameter which determines the concentration of data towards the mode
-- x is a random variable (x > $x_m$)   
+- x is a random variable \( $x > x_m$ \)   
 
 The Pareto distribution is sometimes expressed more simply as the “80-20 rule”, which describes a range of situations. In customer support, it means that 80% of problems come from 20% of customers. In economics, it means 80% of the wealth is controlled by 20% of the population. Examples of events that may be modeled by Pareto distribution include:
 - The sizes of human settlements (few cities, many villages)
