@@ -84,7 +84,7 @@ The Pareto probability density function is given by
 $$\frac {ax^a_m}  {x^{a+1}}$$  
 
 where  
-- \( $x_m$ \) is the minimum possible value of X
+-  $x_m$  is the minimum possible value of X
 - α is a positive parameter which determines the concentration of data towards the mode
 - x is a random variable \( $x > x_m$ \)   
 
