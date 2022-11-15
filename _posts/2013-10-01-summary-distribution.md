@@ -13,8 +13,10 @@ tags:
 ### Bernoulli process
 An experiment whose dichotomous outcomes are random (coin toss, rolling a die, polls).
 ### Beta Distribution
-models events that are constrained to take place within an interval defined by a minimum and maximum value.The Beta probability density function is given by  
+models events that are constrained to take place within an interval defined by a minimum and maximum value.The Beta probability density function is given by 
+
 $$ \frac {x^{\alpha-1}(1-x)^{\beta-1}} {B(\alpha,\beta)} $$  
+
 where
 - α is a positive shape parameter
 - β is a positive shape parameter  
@@ -29,8 +31,10 @@ The probability distribution of the number of Bernoulli trials needed to get one
 Discrete probability distribution that describes the number of successes in a sequence of n draws from a finite population without replacement. 
 
 ### Poisson distribution
-A discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time and/or space if these events occur with a known average rate and independently of the time since the last event, that is, it predicts the degree of spread around a known average rate of occurrence.  
+A discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time and/or space if these events occur with a known average rate and independently of the time since the last event, that is, it predicts the degree of spread around a known average rate of occurrence. 
+
 $$\frac {\lambda^k e^{-\lambda}} {k!}$$  
+
 where
 - e is the base of the natural logarithm (e = 2.71828...)
 - k! is the factorial of k
@@ -55,7 +59,9 @@ The gamma distribution is also used to model errors in a multi-level Poisson reg
 
 ### Exponential Distribution
 A special case of the gamma distribution. The gamma distribution is the waiting time for more than one event, the exponential distribution describes the time between a single Poisson event. The exponential probability density function is given by  
+
 $$e^{-\lambda x}$$  
+
 where:
 - e is the natural number (e = 2.71828…)
 - λ is the mean time between events
