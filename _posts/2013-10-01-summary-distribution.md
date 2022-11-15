@@ -41,6 +41,7 @@ As a function of k, this is the probability mass function. The parameter λ is n
 Gamma distribution is a distribution that arises naturally in processes for which the waiting times between events are relevant. It can be thought of as a waiting time between Poisson distributed events.  
 The waiting time until the `hth` Poisson event with a rate of change `λ` is
 
+
 $$P(x)=\lambda(\lambda x)^{h-1}$$  
 
 The gamma distribution can be used a range of disciplines including queuing models, climatology, and financial services. Examples of events that may be modeled by gamma distribution include:
