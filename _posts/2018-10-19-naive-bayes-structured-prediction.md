@@ -21,7 +21,7 @@ An approach to classify a single class variable that depends on several feature 
 
 ## Hidden Markov Model
 In Naive Bayes model, only a single class variable is considered. If we want to predict a a sequence of class variables 
-\(y_1,y_2...,y_n\) for an observation sequence \(x=(x_1,x_2...,x_n\), naively, a simple sequence model can be formulated as a product over single Naive Bayes Models. 
+\( $y_1,y_2...,y_n $ \) for an observation sequence \( $ x=(x_1,x_2...,x_n) $ \), naively, a simple sequence model can be formulated as a product over single Naive Bayes Models. 
 
 
 $$ p(y,x)=\prod_i^m p(y_i)p(x_i|y_i) $$  
