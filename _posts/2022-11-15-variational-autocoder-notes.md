@@ -7,6 +7,7 @@ categories:
 
 tags:
   - deep learning
+  - generative learning
 
 published: false
 ---
